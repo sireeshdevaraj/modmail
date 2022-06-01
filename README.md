@@ -22,7 +22,7 @@ py -3 -m pip install -U discord.py
 # I CAN'T SEE THE SLASH COMMANDS?
 - That's because you didn't add the `applications.commands` in the bot scope
 - Kick the bot and re-add the Scope and invite the bot with the new URL
-- ![](https://github.com/sireeshdevaraj/modmail/blob/main/assets/scopes.jpg)
+ ![](https://github.com/sireeshdevaraj/modmail/blob/main/assets/scopes.jpg)
 
 # NOTE:
 - This Bot is a Basic and more than enough for a server to moderate with MODMAILS 
