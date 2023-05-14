@@ -12,8 +12,8 @@ py -3 -m pip install -U discord.py
 - If you don't know how to get one or never created a bot before just follow the [docs here](https://discordpy.readthedocs.io/en/stable/discord.html)
 # WHERE DO I CONFIGURE CHANNEL AND SERVER?
 - Lock the `/report` to specific roles , configure the roles in this [line](https://github.com/sireeshdevaraj/modmail/blob/main/main.py#:~:text=%40app_commands.checks.has_any_role(999999999999999999%2C%20999999999999999999%2C%20999999999999999999))
-- Configure the **GUILD ID** in this [line1](https://github.com/sireeshdevaraj/modmail/blob/main/main.py#:~:text=main_guild%20%3D%20bot.get_guild(999999999999999999)%23Enter%20the%20Guild%20ID%20of%20the%20main%20server) and [line2](https://github.com/sireeshdevaraj/modmail/blob/main/main.py#:~:text=if%20interaction.guild.id%3D%3D681336886891118688%3A%20%23enter%20the%20Guild%20ID%20of%20the%20main%20server)
-- Configure the **CHANNEL ID** in this [line](https://github.com/sireeshdevaraj/modmail/blob/main/main.py#:~:text=channel%20%3D%20bot.get_channel(999999999999999999)%23Enter%20the%20channel%20ID%20you%20want%20to%20Send%20the%20DM%20messages)
+- Configure the **GUILD ID** in  [line1](https://github.com/sireeshdevaraj/modmail/blob/main/main.py#:~:text=main_guild%20%3D%20bot.get_guild(999999999999999999)%23Enter%20the%20Guild%20ID%20of%20the%20main%20server) and [line2](https://github.com/sireeshdevaraj/modmail/blob/main/main.py#:~:text=if%20interaction.guild.id%3D%3D681336886891118688%3A%20%23enter%20the%20Guild%20ID%20of%20the%20main%20server)
+- Configure the **CHANNEL ID** in  [line](https://github.com/sireeshdevaraj/modmail/blob/main/main.py#:~:text=channel%20%3D%20bot.get_channel(999999999999999999)%23Enter%20the%20channel%20ID%20you%20want%20to%20Send%20the%20DM%20messages)
 # FEATURES:
 - Delivers all the messages from DM's to  a specified MOD channel
 - Supports Slash commands
